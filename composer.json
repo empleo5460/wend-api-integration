@@ -9,9 +9,11 @@
     "authors": [
         {
             "name": "Wilson Empleo",
-            "email": "wilson@wendyourway.com"
+            "email": "empleo5460@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "empleo5460/wend-api-integration": "dev-master"
+    }
 }
