@@ -1,10 +1,10 @@
 {
     "name": "wempleo/paymentapi",
     "description": "Laravel API Integration",
-    "type": "library",
+    "type": "project",
     "require": {
-        "laravel/cashier": "^10.6",
-        "laravel/framework": "^6.12"
+        "laravel/cashier": "*",
+        "laravel/framework": "*"
     },
     "license": "MIT",
     "authors": [
