@@ -1,0 +1,17 @@
+{
+    "name": "wilson/wend-api-integration",
+    "description": "Wend Laravel API Integration",
+    "type": "library",
+    "require-dev": {
+        "laravel/cashier": "^10.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilson Empleo",
+            "email": "wilson@wendyourway.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
