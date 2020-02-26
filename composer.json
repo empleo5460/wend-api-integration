@@ -1,6 +1,6 @@
 {
     "name": "wempleo/paymentapi",
-    "description": "Wend Laravel API Integration",
+    "description": "Laravel API Integration",
     "type": "library",
     "require": {
         "laravel/cashier": "^10.6",
