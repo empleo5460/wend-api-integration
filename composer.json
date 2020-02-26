@@ -1,9 +1,10 @@
 {
-    "name": "empleo5460/wend-api-integration",
+    "name": "wempleo/paymentapi",
     "description": "Wend Laravel API Integration",
     "type": "library",
-    "require-dev": {
-        "laravel/cashier": "^10.6"
+    "require": {
+        "laravel/cashier": "^10.6",
+        "laravel/framework": "^6.12"
     },
     "license": "MIT",
     "authors": [
@@ -12,8 +13,13 @@
             "email": "empleo5460@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "empleo5460/wend-api-integration": "dev-master"
-    }
+    "autoload": {
+        "psr-4": {
+            "wempleo\\paymentapi\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
 }
